@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (lowercase == 'e' || lowercase == 'q')
 		{
-			lowercase +-1;
+			lowercase += 1;
 		}
 		else
 		{

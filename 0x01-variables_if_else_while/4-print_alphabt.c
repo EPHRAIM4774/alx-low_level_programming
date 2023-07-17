@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-	int n = 97;
-
-	while (n <= 122)
+	int lowercase = 'a';
+	while (lowercase <= 'z')
 	{
-		if (n == 101 || n == 133)
+		if (lowercase == 'e' || lowercase == 'q')
 		{
-			n++;
-			continue;
+			lowercase +-1;
 		}
-		putchar(n);
-		n++;
+		else
+		{
+			putchar(lowercase);
+			lowercase += 1;
+		}
 	}
 	putchar('\n');
 	return (0);

@@ -6,7 +6,7 @@
  *
  * Return: Always 0
  */
-void print_number(int n)
+void print_times_table(int n)
 {
 	unsigned int i = n;
 

@@ -2,8 +2,8 @@
 
 int mai(void)
 {
-  int n ;
-  int a [5];
+  int n;
+  int a[5];
   int *p;
 
   a[2] = 1024;

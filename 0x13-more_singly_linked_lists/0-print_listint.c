@@ -18,8 +18,3 @@ size_t print_listint(const listint_t *h)
 	}
 	return (num);
 }
-int main()
-{
-	print_listint;
-	return (0);
-}
